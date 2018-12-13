@@ -29,26 +29,35 @@ D=np.arange(0,10)
 sum=0
 while 1:
  IO.output(22,1) #Rise the clock
-
+ time.sleep(0.02)
  D=D*0
  if(IO.input(26) == True):
   D[9]=1
+ time.sleep(0.01)
  if(IO.input(29) == True):
   D[8]=1
+ time.sleep(0.01)
  if(IO.input(31) == True):
   D[7]=1
+ time.sleep(0.01)
  if(IO.input(32) == True):
   D[6]=1
+ time.sleep(0.01)
  if(IO.input(33) == True):
   D[5]=1
+ time.sleep(0.01)
  if(IO.input(35) == True):
   D[4]=1
+ time.sleep(0.01)
  if(IO.input(36) == True):
   D[3]=1
+ time.sleep(0.01)
  if(IO.input(37) == True):
   D[2]=1
+ time.sleep(0.01)
  if(IO.input(38) == True):
   D[1]=1
+ time.sleep(0.01)
  if(IO.input(40) == True):
   D[0]=1
  time.sleep(0.01)
